@@ -3,14 +3,6 @@
 	"type" : "typo3-cms-extension",
 	"description" : "An extension to create simple news",
 	"homepage" : "https://github.com/chrisgruen/simple-news",
-	"authors": [
-        {
-            "name": "Christian Grünwald",
-            "email": "cg@romonta-schach.de",
-            "homepage": "https://demochris.de",
-            "role": "Developer"
-        }
-    ],
 	"license" : "GPL-2.0-or-later",
 	"minimum-stability": "dev",
     "prefer-stable": true,
