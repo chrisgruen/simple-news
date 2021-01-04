@@ -17,7 +17,7 @@
 			"ChrisGruen\\SimpleNews\\" : "Classes/"
 		}
 	},
-	replace": {
+	"replace": {
         "typo3-ter/simple-news": "self.version"
     },
 	"config": {
