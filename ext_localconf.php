@@ -17,7 +17,7 @@ $GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['simple_news'] = 'EXT:simple_news/
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
     'SimpleNews',
     'ManageSimpleNews',
-    [\ChrisGruen\ChessManager\Controller\SimpleNewsController::class => 'list, show'],
+    [\ChrisGruen\SimpleNews\Controller\SimpleNewsController::class => 'list, show'],
     // non-cacheable actions
-    [\ChrisGruen\ChessManager\Controller\SimpleNewsController::class => '']
+    [\ChrisGruen\SimpleNews\Controller\SimpleNewsController::class => '']
 );

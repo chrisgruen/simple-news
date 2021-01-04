@@ -28,7 +28,7 @@ class SimpleNews extends \TYPO3\CMS\Extbase\DomainObject\AbstractValueObject
 
     /**
      *
-     * @return \ChrisGruen\ChessManager\Domain\ModelPlayer
+     * @return \ChrisGruen\SimpleNews\Domain\ModelPlayer
      */
     public function __construct()
     {

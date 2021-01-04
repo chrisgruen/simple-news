@@ -1,6 +1,6 @@
 
 #
-# Table structure for table 'tx_chessmanager_domain_model_player'
+# Table structure for table 'tx_simplenews_domain_model_content'
 #
 CREATE TABLE tx_simplenews_domain_model_content (
    title varchar(255) DEFAULT '' NOT NULL,
