@@ -1,8 +1,16 @@
 {
 	"name" : "chrisgruen/simple-news",
 	"type" : "typo3-cms-extension",
-	"description" : "An extension for creating simple news (actual, archive, draft)",
-	"homepage" : "https://demochris.de/",
+	"description" : "An extension to manage Chess results",
+	"authors": [
+        {
+            "name": "Christian Grünwald",
+            "email": "cg@romonta-schach.de",
+            "homepage": "https://demochris.de",
+            "role": "Developer"
+        }
+    ],
+    "version": "0.1",
 	"license" : "GPL-2.0-or-later",
 	"minimum-stability": "dev",
     "prefer-stable": true,
