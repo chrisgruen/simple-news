@@ -1,13 +1,15 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       data-namespace-typo3-fluid="true">
 
-	<f:for each="{listcontent}" as="entry">
-		<h3>{entry.title}</h3>
-		<f:format.html>
-			{entry.teaser}	
-			{entry.bodytext}
-		</f:format.html>		
-		<hr width="100%" />
-	</f:for>
-
+	<div class="simple-news">
+		<f:for each="{listcontent}" as="entry">
+			<h3>{entry.title}</h3>
+			<f:if condition="{entry.teaser}"><h4>{entry.teaser}</h4></f:if>
+			<f:format.html>	
+				{entry.bodytext}
+			</f:format.html>		
+			<hr width="100%" />
+		</f:for>
+	</div>
+	
 </html>
