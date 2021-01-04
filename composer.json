@@ -1,7 +1,8 @@
 {
 	"name" : "chrisgruen/simple-news",
 	"type" : "typo3-cms-extension",
-	"description" : "An extension to manage Chess results",
+	"description" : "An extension to create simple news",
+	"homepage" : "https://github.com/chrisgruen/simple-news",
 	"authors": [
         {
             "name": "Christian Grünwald",
@@ -10,7 +11,6 @@
             "role": "Developer"
         }
     ],
-    "version": "0.1",
 	"license" : "GPL-2.0-or-later",
 	"minimum-stability": "dev",
     "prefer-stable": true,
@@ -24,19 +24,5 @@
 		"psr-4" : {
 			"ChrisGruen\\SimpleNews\\" : "Classes/"
 		}
-	},
-	"replace": {
-        "typo3-ter/simple-news": "self.version"
-    },
-	"config": {
-        "vendor-dir": ".Build/vendor",
-        "bin-dir": ".Build/bin"
-    },
-    "extra": {
-        "typo3/cms": {
-            "extension-key": "simple-news",
-            "cms-package-dir": "{$vendor-dir}/typo3/cms",
-            "web-dir": ".Build/Web"
-        }
-    }
+	}
 }
