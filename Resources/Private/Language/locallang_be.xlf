@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2020-11-22UTC05:13:340">
+        <header>
+            <authorName>Christian Grünwald</authorName>
+            <authorEmail>cg@romonta-schach.de</authorEmail>
+        </header>
+        <body>
+            <trans-unit id="backend_layout.example">
+                <source>Example</source>
+            </trans-unit>
+            <trans-unit id="backend_layout.column.normal">
+                <source>Normal</source>
+            </trans-unit>
+            <trans-unit id="flexforms_general.mode" xml:space="preserve">
+				<source>What to display ?</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.results" xml:space="preserve">
+				<source>Results</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.players" xml:space="preserve">
+				<source>Players</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.teams" xml:space="preserve">
+				<source>Teams</source>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>

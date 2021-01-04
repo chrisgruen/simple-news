@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2021-01-22UTC05:13:340">
+        <header>
+            <authorName>Christian Grünwald</authorName>
+            <authorEmail>cg@romonta-schach.de</authorEmail>
+        </header>
+        <body>
+			<trans-unit id="extension.title">
+                <source>Simple News</source>
+            </trans-unit>
+            <trans-unit id="tx_simplenews_domain_model_content">
+                <source>Display content</source>
+            </trans-unit>
+            <trans-unit id="tx_simplenews_domain_model_content.item_title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="tx_simplenews_domain_model_content.item_bodytext">
+                <source>Body text</source>
+            </trans-unit>
+            <trans-unit id="tx_simplenews_domain_model_content.item_teaser">
+                <source>Teaser</source>
+            </trans-unit>
+            <trans-unit id="tx_simplenews_domain_model_content.item_display">
+                <source>Display</source>
+            </trans-unit>
+            <trans-unit id="tx_simplenews_domain_model_content.item_type">
+                <source>Type</source>
+            </trans-unit>
+            <trans-unit id="tx_simplenews_domain_model_content.item_status">
+                <source>Active</source>
+            </trans-unit>
+            <trans-unit id="tx_chessmanager_domain_model_player.item_sort">
+                <source>Sort</source>
+            </trans-unit>
+
+            <trans-unit id="notes" xml:space="preserve">
+				<source>Notes</source>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>

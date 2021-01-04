@@ -1,0 +1,34 @@
+{
+	"name" : "chrisgruen/simple-news",
+	"type" : "typo3-cms-extension",
+	"description" : "An extension for creating simple news (actual, archive, draft)",
+	"homepage" : "https://demochris.de/",
+	"license" : "GPL-2.0-or-later",
+	"minimum-stability": "dev",
+    "prefer-stable": true,
+	"keywords" : [
+		"TYPO3 CMS"
+	],
+	"require" : {
+		"bk2k/bootstrap-package" : "^11.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"ChrisGruen\\SimpleNews\\" : "Classes/"
+		}
+	}
+		replace": {
+        "typo3-ter/chess-manager": "self.version"
+    },
+	"config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "simple-news",
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/Web"
+        }
+    }
+}
