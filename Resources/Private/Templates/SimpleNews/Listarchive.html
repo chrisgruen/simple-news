@@ -2,8 +2,8 @@
       data-namespace-typo3-fluid="true">
 
 	<f:for each="{listcontent}" as="entry">
+		<h3>{entry.title}</h3>
 		<f:format.html>
-			{entry.title}
 			{entry.teaser}	
 			{entry.bodytext}
 		</f:format.html>		

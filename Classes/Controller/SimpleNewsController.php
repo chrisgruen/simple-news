@@ -10,7 +10,7 @@ class SimpleNewsController extends ActionController
     private $contentRepository;
     
     /**
-     * Inject the team repository
+     * Inject the content repository
      *
      * @param ChrisGruen\SimpleNews\Domain\Repository\ContentRepository $teamRepository
      */
