@@ -16,9 +16,9 @@
 		"psr-4" : {
 			"ChrisGruen\\SimpleNews\\" : "Classes/"
 		}
-	}
-		replace": {
-        "typo3-ter/chess-manager": "self.version"
+	},
+	replace": {
+        "typo3-ter/simple-news": "self.version"
     },
 	"config": {
         "vendor-dir": ".Build/vendor",
