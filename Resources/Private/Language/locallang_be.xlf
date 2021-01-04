@@ -15,14 +15,14 @@
             <trans-unit id="flexforms_general.mode" xml:space="preserve">
 				<source>What to display ?</source>
 			</trans-unit>
-			<trans-unit id="flexforms_general.mode.results" xml:space="preserve">
-				<source>Results</source>
+			<trans-unit id="flexforms_general.mode.actual" xml:space="preserve">
+				<source>Actual</source>
 			</trans-unit>
-			<trans-unit id="flexforms_general.mode.players" xml:space="preserve">
-				<source>Players</source>
+			<trans-unit id="flexforms_general.mode.archive" xml:space="preserve">
+				<source>Archive</source>
 			</trans-unit>
-			<trans-unit id="flexforms_general.mode.teams" xml:space="preserve">
-				<source>Teams</source>
+			<trans-unit id="flexforms_general.mode.draft" xml:space="preserve">
+				<source>Draft</source>
 			</trans-unit>
         </body>
     </file>

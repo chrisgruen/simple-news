@@ -1,0 +1,13 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+	<f:for each="{listcontent}" as="entry">
+		<f:format.html>
+			{entry.title}
+			{entry.teaser}	
+			{entry.bodytext}
+		</f:format.html>		
+		<hr width="100%" />
+	</f:for>
+		
+</html>
