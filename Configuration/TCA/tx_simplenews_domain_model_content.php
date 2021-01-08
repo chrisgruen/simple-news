@@ -51,6 +51,15 @@ return [
                 ],
             ],
         ],
+        'status' => [
+            'label' => 'LLL:EXT:chess_manager/Resources/Private/Language/locallang_db.xlf:tx_chessmanager_domain_model_player.item_status',
+            'config' => [
+                'type' => 'check',
+                'items' => [
+                    ['aktiv', ''],
+                ],
+            ],
+        ],
         'sort' => [
             'label' => $ll . 'tx_simplenews_domain_model_content.item_sort',
             'config' => [
@@ -66,7 +75,7 @@ return [
     ],
     'palettes' => [
         'display_sort' => [
-            'showitem' => 'display, sort',
+            'showitem' => 'display, status, sort',
         ],
     ],
 ];
