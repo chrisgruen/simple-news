@@ -8,7 +8,7 @@ return [
         'enablecolumns' => [
             'disabled' => 'hidden',
         ],
-        'default_sortby' => 'ORDER BY uid DESC',
+        'default_sortby' => 'ORDER BY update_time DESC',
         //'sortby' => 'sort',
     ],
     'columns' => [
@@ -52,7 +52,7 @@ return [
             ],
         ],
         'status' => [
-            'label' => 'LLL:EXT:chess_manager/Resources/Private/Language/locallang_db.xlf:tx_chessmanager_domain_model_player.item_status',
+            'label' => $ll . 'tx_simplenews_domain_model_content.item_status',
             'config' => [
                 'type' => 'check',
                 'items' => [

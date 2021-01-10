@@ -28,9 +28,9 @@
                 <source>Type</source>
             </trans-unit>
             <trans-unit id="tx_simplenews_domain_model_content.item_status">
-                <source>Active</source>
+                <source>Status</source>
             </trans-unit>
-            <trans-unit id="tx_chessmanager_domain_model_player.item_sort">
+            <trans-unit id="tx_simplenews_domain_model_content.item_sort">
                 <source>Sort</source>
             </trans-unit>
 

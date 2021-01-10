@@ -17,7 +17,7 @@ class ContentRepository extends Repository
                 $query->equals('display', 'actual'),
                 )
             )
-            ->setOrderings(array("uid" => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_DESCENDING));
+            ->setOrderings(array("update_time" => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_DESCENDING));
             return $query->execute();
     }
     
