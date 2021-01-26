@@ -8,8 +8,9 @@ return [
         'enablecolumns' => [
             'disabled' => 'hidden',
         ],
-        'default_sortby' => 'ORDER BY update_time DESC',
-        //'sortby' => 'sort',
+        'default_sortby' => 'ORDER BY create_time DESC',
+        'searchFields' => 'display',
+        'sortby' => 'ORDER BY display, create_time DESC',
     ],
     'columns' => [
         'title' => [
